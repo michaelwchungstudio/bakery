@@ -7,21 +7,30 @@
     <!-- API links here! -->
   </head>
   <body>
-    <h1 id='bakeryTitle'>Hot Crossed Buns</h1>
-    <!-- Navigation Bar -->
-    <nav class='navbar'>
-      <ul>
-        <li><a href='/'>Home</a></li>
-        <li><a href='/about'>About Us</a></li>
-        <li><a href='/products'>Menu</a></li>
-        <li><a href='/contact'>Contact</a></li>
-      </ul>
-    </nav>
-
-    <div class='main-container'>
-      <%= yield %>
+    <div class='pageWrapper'>
+      <div class='pageHeader'>
+        <h1 id='bakeryTitle'>Super Baked</h1>
+        <!-- Navigation Bar -->
+        <nav class='navbar'>
+          <ul>
+            <li><a href='/'>Home</a></li>
+            <li><a href='/about'>About Us</a></li>
+            <li id='dropdown'>
+              <a>Menu</a>
+              <div id='menuDropdown'>
+                <a href='/cakes'>Cakes</a>
+                <a href='/cookies'>Cookies</a>
+                <a href='/muffins'>Muffins</a>
+              </div>
+            </li>
+            <li><a href='/contact'>Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class='main-container'>
+        <%= yield %>
+      </div>
     </div>
-
   <script type="text/javascript" src='../javascript/javascript.js'></script>
   </body>
 </html>

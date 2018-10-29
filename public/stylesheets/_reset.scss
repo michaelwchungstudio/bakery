@@ -1,7 +1,9 @@
 // Color Variables
-
-
-
+$pastel-red: #FFC8CA;
+$pastel-blue: #A9FFF8;
+$pastel-yellow: #FFFFD3;
+$pastel-green: #99FFDE;
+$pastel-purple: #FAEFFF;
 
 // Reset
 * {
@@ -35,4 +37,14 @@
   font-family: "DinOT";
   src: url("../fonts/DINOT-Light.otf");
   font-weight: 300;
+}
+
+// Page Wrapper
+.pageWrapper {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-rows: 0.185fr 1fr;
+  background-image: url('../images/banner.jpg');
+  background-position: left;
 }

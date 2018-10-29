@@ -21,6 +21,7 @@ PLATFORMS
 
 DEPENDENCIES
   sendgrid-ruby
+  sinatra
 
 BUNDLED WITH
    1.16.1
