@@ -1,0 +1,33 @@
+#bakeryTitle {
+  margin: 1rem auto;
+  font-size: 2.75em;
+  text-align: center;
+}
+
+.navbar {
+  text-align: center;
+}
+
+.navbar ul li {
+  display: inline-block;
+  margin: 0 0.5rem;
+}
+
+.navbar ul:first-child {
+  margin-left: none;
+}
+
+.navbar ul:last-child {
+  margin-right: none;
+}
+
+.navbar ul li a {
+  font-size: 1.15em;
+  text-decoration: none;
+  color: black;
+}
+
+.navbar ul li a:hover {
+  text-decoration: line-through;
+  font-weight: 500;
+}
