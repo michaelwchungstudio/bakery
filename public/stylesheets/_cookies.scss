@@ -1,0 +1,36 @@
+// Wrapper for cookie page
+.cookieWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.2fr repeat(10, 1fr);
+  margin: 0 auto;
+  padding-left: 12.5%;
+  padding-right: 12.5%;
+  height: 4000px;
+  background-color: white;
+}
+
+#cookieTitle {
+  font-size: 2em;
+  margin: 0 auto;
+  grid-column: 1 / 4;
+}
+
+// "Grid" for each cookie
+.cookieListing {
+  display: grid;
+  grid-template-rows: 1fr 0.15fr 0.3fr 0.15fr;
+}
+
+.cookieImage {
+  height: 300px;
+  width: 300px;
+}
+
+.cookiePrice {
+  display: inline-block;
+}
+
+.buyButton {
+  display: inline-block;
+}

@@ -27,7 +27,8 @@
   display: grid;
   grid-template-rows: 0.185fr 1fr;
   background-image: url("../images/banner.jpg");
-  background-position: left; }
+  background-position: left;
+  background-repeat: repeat-y; }
 
 .pageHeader {
   background-color: rgba(255, 255, 255, 0.7);
@@ -35,7 +36,7 @@
 
 #bakeryTitle {
   margin: 1rem auto;
-  font-size: 2.75em;
+  font-size: 3.5em;
   text-align: center;
   color: #99FFDE;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; }
@@ -111,5 +112,34 @@
   font-size: 2.5em;
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; }
+
+.cookieWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.2fr repeat(10, 1fr);
+  margin: 0 auto;
+  padding-left: 12.5%;
+  padding-right: 12.5%;
+  height: 4000px;
+  background-color: white; }
+
+#cookieTitle {
+  font-size: 2em;
+  margin: 0 auto;
+  grid-column: 1 / 4; }
+
+.cookieListing {
+  display: grid;
+  grid-template-rows: 1fr 0.15fr 0.3fr 0.15fr; }
+
+.cookieImage {
+  height: 300px;
+  width: 300px; }
+
+.cookiePrice {
+  display: inline-block; }
+
+.buyButton {
+  display: inline-block; }
 
 /*# sourceMappingURL=main.css.map */
