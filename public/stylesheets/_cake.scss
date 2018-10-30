@@ -1,0 +1,22 @@
+.cakeWrapper {
+  display: grid;
+  grid-template-rows: 0.2fr repeat(10, 1fr) 0.15fr;
+  grid-gap: 2rem;
+  grid-row-gap: 6.75rem;
+  margin: 0 auto;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: white;
+}
+
+#cakeTitle {
+  font-size: 2em;
+  font-weight: 600;
+  margin: 6rem auto 3rem auto;
+  grid-column: 1 / 4;
+}
+
+.cakeListing {
+  display: grid;
+  grid-template-columns: 0.75fr 1fr;
+}

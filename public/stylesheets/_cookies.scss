@@ -2,35 +2,151 @@
 .cookieWrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 0.2fr repeat(10, 1fr);
+  grid-template-rows: 0.2fr repeat(6, 1fr) 0.15fr;
+  grid-gap: 2rem;
+  grid-row-gap: 6.75rem;
   margin: 0 auto;
-  padding-left: 12.5%;
-  padding-right: 12.5%;
-  height: 4000px;
+  padding-left: 10%;
+  padding-right: 10%;
   background-color: white;
 }
 
 #cookieTitle {
   font-size: 2em;
-  margin: 0 auto;
+  font-weight: 600;
+  margin: 6rem auto 3rem auto;
   grid-column: 1 / 4;
 }
 
 // "Grid" for each cookie
 .cookieListing {
   display: grid;
-  grid-template-rows: 1fr 0.15fr 0.3fr 0.15fr;
+  grid-template-rows: 1fr 0.075fr 0.3fr 0.15fr;
 }
 
-.cookieImage {
-  height: 300px;
-  width: 300px;
+.cookieImage{
+  height: 335px;
+  width: 335px;
+  border-radius: 50%;
+  background-size: contain;
+  margin: 0 auto;
+}
+
+// Individual cookie images
+#chocoChip {
+  background-image: url('../images/cookies/chocchip.jpg');
+}
+
+#almondJoy {
+  background-image: url('../images/cookies/almondjoy.jpg');
+}
+
+#caramelPecan {
+  background-image: url('../images/cookies/caramelpecan.jpg');
+}
+
+#doubleFudge {
+  background-image: url('../images/cookies/dblfudge.jpg');
+}
+
+#ginger {
+  background-image: url('../images/cookies/ginger.jpg');
+}
+
+#heathBar {
+  background-image: url('../images/cookies/heathbar.jpg');
+}
+
+#lemonCooler {
+  background-image: url('../images/cookies/lemoncooler.jpg');
+}
+
+#mAndM {
+  background-image: url('../images/cookies/mandm.jpg');
+}
+
+#oatmealRaisin {
+  background-image: url('../images/cookies/oatmealraisin.jpg');
+}
+
+#peanutButter {
+  background-image: url('../images/cookies/peanutbutter.jpg');
+}
+
+#pumpkin {
+  background-image: url('../images/cookies/pumpkin.jpg');
+}
+
+#snickerdoodle {
+  background-image: url('../images/cookies/snickerdoodle.jpg');
+}
+
+#sugar {
+  background-image: url('../images/cookies/sugar.jpg');
+}
+
+#tripChoc {
+  background-image: url('../images/cookies/tripchoc.jpg');
+}
+
+#turtle {
+  background-image: url('../images/cookies/turtle.jpg');
+}
+
+#whiteChocCran {
+  background-image: url('../images/cookies/whitechoccran.jpg');
+}
+
+#whiteRussian {
+  background-image: url('../images/cookies/whiterussian.jpg');
+}
+
+#royale {
+  background-image: url('../images/cookies/royale.jpg');
+}
+
+// Cookie information
+.cookieName {
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 500;
+  margin-top: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.cookieDescription {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.cookieFiscalRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.5rem;
 }
 
 .cookiePrice {
+  font-size: 1.1em;
   display: inline-block;
+  font-style: italic;
 }
 
 .buyButton {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.25rem 0.75rem;
+  margin-left: 1rem;
+  background-color: $pastel-green;
+  border: 1px solid;
+}
+
+.buyButton:hover {
+  cursor: pointer;
+}
+
+.buyButtonText {
+  font-weight: 500;
 }
