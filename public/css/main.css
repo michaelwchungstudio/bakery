@@ -319,7 +319,11 @@
   padding: 0.45rem 1rem;
   margin-left: 2.5rem;
   background-color: #F9F9F9;
-  border: 1px solid; }
+  border: 1px solid;
+  -webkit-transition-duration: 500ms;
+  -moz-transition-duration: 500ms;
+  -o-transition-duration: 500ms;
+  transition-duration: 500ms; }
 
 .buyButton:hover {
   cursor: pointer;
@@ -510,10 +514,19 @@
   font-weight: 500;
   text-align: center; }
 
+#contactForm {
+  margin-top: 2.5rem; }
+
+#nameTitle {
+  display: inline-block; }
+
 #contactBox {
   text-align: center; }
 
-#emailInput {
+#emailTitle {
+  display: inline-block; }
+
+#messageTitle {
   display: inline-block; }
 
 .pageFooter {

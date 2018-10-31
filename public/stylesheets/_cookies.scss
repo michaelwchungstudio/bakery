@@ -144,6 +144,10 @@
   margin-left: 2.5rem;
   background-color: $off-white;
   border: 1px solid;
+  -webkit-transition-duration: 500ms;
+  -moz-transition-duration: 500ms;
+  -o-transition-duration: 500ms;
+  transition-duration: 500ms;
 }
 
 .buyButton:hover {

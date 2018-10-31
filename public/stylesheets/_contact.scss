@@ -11,10 +11,22 @@
   text-align: center;
 }
 
+#contactForm {
+  margin-top: 2.5rem;
+}
+
+#nameTitle {
+  display: inline-block;
+}
+
 #contactBox {
   text-align: center;
 }
 
-#emailInput {
+#emailTitle {
+  display: inline-block;
+}
+
+#messageTitle {
   display: inline-block;
 }
