@@ -1,0 +1,16 @@
+.aboutWrapper {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  padding-left: 12.5%;
+  padding-right: 12.5%;
+  background-color: $off-white;
+}
+
+#aboutImage {
+  width: 80%;
+  // background-image: url('../images/about.jpg');
+  // background-size: cover;
+  // background-repeat: no-repeat;
+}

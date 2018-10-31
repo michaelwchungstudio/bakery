@@ -1,9 +1,21 @@
+.homeWrapper {
+  display: grid;
+  height: 100%;
+  grid-template-rows: 1fr 0.2fr;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.centerIt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #bakeryMotto {
-  font-size: 15em;
-  font-weight: 600;
-  font-style: italic;
-  color: $pastel-blue;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-family: "Bodoni";
+  font-size: 8em;
+  font-weight: 500;
+  color: white;
   text-align: center;
 }
 
@@ -12,13 +24,15 @@
 }
 
 #bakeryInfo h3 {
-  font-size: 3.25em;
-  color: white;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-size: 1.35em;
+  font-weight: 300;
+  color: $off-white;
+  margin-bottom: 0.5rem;
 }
 
 #bakeryInfo h4 {
-  font-size: 2.5em;
-  color: white;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-size: 1.1em;
+  font-weight: 300;
+  color: $off-white;
+  margin: 0.35rem 0;
 }

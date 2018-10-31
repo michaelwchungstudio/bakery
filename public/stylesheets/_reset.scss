@@ -5,16 +5,19 @@ $pastel-yellow: #FFFFD3;
 $pastel-green: #99FFDE;
 $pastel-purple: #FAEFFF;
 
+$off-white: #F9F9F9;
+
 // Reset
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "DinOT";
+  font-family: "Akzidenz Grotesk";
   font-size: 16px;
 }
 
 // Fonts
+// Din OT
 @font-face {
   font-family: "DinOT";
   src: url("../fonts/DINOT.otf");
@@ -37,6 +40,75 @@ $pastel-purple: #FAEFFF;
   font-family: "DinOT";
   src: url("../fonts/DINOT-Light.otf");
   font-weight: 300;
+}
+
+// Bodoni
+@font-face {
+  font-family: "Bodoni";
+  src: url("../fonts/BauerBodoniStd-Roman.otf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Bodoni";
+  src: url("../fonts/BauerBodoniStd-Bold.otf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Bodoni";
+  src: url("../fonts/BauerBodoniStd-Black.otf");
+  font-weight: 600;
+}
+
+// Akzidenz Grotesk
+@font-face {
+  font-family: "Akzidenz Grotesk";
+  src: url("../fonts/AkzidenzGrotesk-Light.otf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Akzidenz Grotesk";
+  src: url("../fonts/AkzidenzGrotesk-Regular.otf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Akzidenz Grotesk";
+  src: url("../fonts/AkzidenzGrotesk-Medium.otf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Akzidenz Grotesk";
+  src: url("../fonts/AkzidenzGrotesk-Bold.otf");
+  font-weight: 600;
+}
+
+//Akzidenz Grotesk Extended
+@font-face {
+  font-family: "Akzidenz Grotesk Extended";
+  src: url("../fonts/AkzidenzGrotesk-LightExtended.otf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Akzidenz Grotesk Extended";
+  src: url("../fonts/AkzidenzGrotesk-Extended.otf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Akzidenz Grotesk Extended";
+  src: url("../fonts/AkzidenzGrotesk-MediumExtended.otf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Akzidenz Grotesk Extended";
+  src: url("../fonts/AkzidenzGrotesk-BoldExtended.otf");
+  font-weight: 600;
 }
 
 // Page Wrapper
