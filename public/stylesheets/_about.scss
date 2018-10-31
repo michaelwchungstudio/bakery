@@ -1,16 +1,27 @@
 .aboutWrapper {
-  height: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: 0 auto;
-  padding-left: 12.5%;
-  padding-right: 12.5%;
+  padding: 10% 12.5%;
   background-color: $off-white;
 }
 
 #aboutImage {
+  height: 30rem;
   width: 80%;
-  // background-image: url('../images/about.jpg');
-  // background-size: cover;
-  // background-repeat: no-repeat;
+  background-image: url('../images/about.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#aboutTitle {
+  font-family: "Bodoni";
+  font-size: 2.5em;
+  font-weight: 500;
+  margin-bottom: 6%;
+}
+
+.aboutInfo {
+  font-size: 1.05em;
+  line-height: 1.5em;
 }

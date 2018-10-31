@@ -1,0 +1,67 @@
+.pageFooter {
+  background: linear-gradient(rgba(249, 249, 249, 0.5), rgba(249, 249, 249, 0.5)), url('../images/banner.jpg');
+  padding-bottom: 1.5%;
+  border-top: 2px solid black;
+}
+
+#socialMediaSection {
+  text-align: center;
+}
+
+.smIcon {
+  display: inline-block;
+  height: 37.5px;
+  width: 37.5px;
+  cursor: pointer;
+  margin: 2.5rem 0.5rem 1.5rem 0.5rem;
+}
+
+#facebook {
+  background-image: url('../icons/facebookB.png');
+  background-size: contain;
+}
+
+#facebook:hover {
+  background-image: url('../icons/facebookW.png');
+
+}
+
+#twitter {
+  background-image: url('../icons/twitterB.png');
+  background-size: contain;
+}
+
+#twitter:hover {
+  background-image: url('../icons/twitterW.png');
+}
+
+#instagram {
+  background-image: url('../icons/instagramB.png');
+  background-size: contain;
+}
+
+#instagram:hover {
+  background-image: url('../icons/instagramW.png');
+}
+
+#pinterest {
+  background-image: url('../icons/pinterestB.png');
+  background-size: contain;
+}
+
+#pinterest:hover {
+  background-image: url('../icons/pinterestW.png');
+}
+
+#youtube {
+  background-image: url('../icons/youtubeB.png');
+  background-size: contain;
+}
+
+#youtube:hover {
+  background-image: url('../icons/youtubeW.png');
+}
+
+#copyright {
+  text-align: center;
+}

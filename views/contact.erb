@@ -1,9 +1,24 @@
-<h2>Contact us if you like: </h2>
-
-<form method="post" action="/email">
-  <input type="text" name="email" placeholder="email">
-  <input type="text" name="subject" placeholder="subject">
-  <textarea name="body" placeholder="body"></textarea>
-  <input type="submit">
-
-</form>
+<div class='contactWrapper'>
+  <div id='contactTitle'>Contact</div>
+  <div id='contactBox'>
+    <form action="https://formspree.io/michaelwchungstudio@gmail.com" method="POST">
+      <div id='nameTitle'>Name</div>
+      <input type="text" name="name" id="nameInput">
+      <div id='emailTitle'>E-mail</div>
+      <input type="email" name="email" id="emailInput">
+      <div id='messageTitle'>Message</div>
+      <textarea name="message" placeholder="Test Message"></textarea>
+      <button type="submit">Send Test</button>
+    </form>
+  </div>
+</div>
+<footer class='pageFooter'>
+  <div id='socialMediaSection'>
+    <div class='smIcon' id='facebook'></div>
+    <div class='smIcon' id='twitter'></div>
+    <div class='smIcon' id='instagram'></div>
+    <div class='smIcon' id='pinterest'></div>
+    <div class='smIcon' id='youtube'></div>
+  </div>
+  <div id='copyright'>&copy; The Modern, 1992. All Rights Reserved.</div>
+</footer>
