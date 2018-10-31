@@ -1,7 +1,12 @@
 .contactWrapper {
   height: 100%;
-  padding: 5.5rem 12.5% 3.5rem;
+  padding: 5.5rem 12.5% 7.5rem;
   background-color: $off-white;
+}
+
+#contactBox {
+  width: 50%;
+  margin: 0 auto;
 }
 
 #contactTitle {
@@ -12,21 +17,45 @@
 }
 
 #contactForm {
-  margin-top: 2.5rem;
+  margin-top: 3.5rem;
+  display: grid;
+  grid-template-columns: 0.6fr 1fr 1fr;
+  grid-template-rows: 0.2fr 0.2fr 1fr 0.2fr;
+  grid-row-gap: 1rem;
+}
+
+.formTitles {
+  font-family: "Akzidenz Grotesk Extended";
+  font-size: 0.9em;
+  margin-top: 0.65em;
 }
 
 #nameTitle {
   display: inline-block;
 }
 
-#contactBox {
-  text-align: center;
+#nameInput {
+  grid-column: 2 / 4;
+  height: 1.95em;
 }
 
 #emailTitle {
   display: inline-block;
 }
 
-#messageTitle {
-  display: inline-block;
+#emailInput {
+  grid-column: 2 / 4;
+  height: 1.95em;
+}
+
+#messageInput {
+  grid-column: 2 / 4;
+  height: 17.5em;
+}
+
+#subButton {
+  width: 15rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+  grid-column: 1 / 4;
 }
