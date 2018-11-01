@@ -549,7 +549,7 @@
   height: 17.5em; }
 
 #subButton {
-  width: 15rem;
+  width: 8.5rem;
   margin: 0 auto;
   margin-top: 2rem;
   grid-column: 1 / 4; }
@@ -567,7 +567,11 @@
   height: 37.5px;
   width: 37.5px;
   cursor: pointer;
-  margin: 2.5rem 0.5rem 1.5rem 0.5rem; }
+  margin: 2.5rem 0.5rem 1.5rem 0.5rem;
+  -webkit-transition-duration: 500ms;
+  -moz-transition-duration: 500ms;
+  -o-transition-duration: 500ms;
+  transition-duration: 500ms; }
 
 #facebook {
   background-image: url("../icons/facebookB.png");
