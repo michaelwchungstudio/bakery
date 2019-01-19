@@ -8,11 +8,11 @@ Ruby application for a fictional bakery.
 
 ![About](public/siteimg/about.png)
 
-![Cakes](public/siteimg/cakes.png)
+![Cakes](public/siteimg/cake.png)
 
-![Cookies](public/siteimg/cookies.png)
+![Cookies](public/siteimg/cookie.png)
 
-![Muffins](public/siteimg/muffins.png)
+![Muffins](public/siteimg/muffin.png)
 
 ![Contact](public/siteimg/contact.png)
 
